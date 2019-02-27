@@ -1,0 +1,10 @@
+.Header {
+    z-index: 10;
+    max-width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 8px #f0f1f2;
+    box-shadow: 0 2px 8px #f0f1f2;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}

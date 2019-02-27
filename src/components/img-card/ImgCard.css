@@ -1,0 +1,39 @@
+.ImgCard {
+    margin:1rem;
+}
+
+.ImgCard-img-wrapper{
+    position: relative;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, .09);
+    height: 250px;
+    width: 250px;
+    margin-bottom: 0.3rem;
+    overflow: hidden;
+}
+
+.ImgCard-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ImgCard-mask {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ImgCard-title {
+    color: #fff;
+    font-size: 2rem;
+}

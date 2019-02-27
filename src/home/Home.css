@@ -1,0 +1,15 @@
+
+
+.Home-content {
+    padding:1rem;
+}
+
+.Home-actions {
+    display: flex;
+    padding: 1rem;
+}
+
+.Home-albums {
+    display: flex;
+    flex-wrap: wrap;
+}
