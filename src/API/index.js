@@ -5,7 +5,7 @@
 
 //  dependencies
 import Axios from 'axios';
-Axios.defaults.baseURL = 'http://127.0.0.1:8181';
+Axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL || 'http://127.0.0.1:8181';
 
 
 /**
